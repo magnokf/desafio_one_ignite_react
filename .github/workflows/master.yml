@@ -13,7 +13,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ${{ secrets.ftp_hostname }}
-          username: ${{ secrets.ftp_username }}
+          server: ${{ secrets.ftp_host }}
+          username: ${{ secrets.ftp_user }}
           password: ${{ secrets.ftp_password }}
           server_dir: public_html/tarefas.dmrtech.com.br
