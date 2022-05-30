@@ -16,4 +16,4 @@ jobs:
           server: ${{ secrets.ftp_hostname }}
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server_dir: home2/dmrgame1/tarefas.dmrtech.com.br
+          server_dir: public_html/tarefas.dmrtech.com.br
