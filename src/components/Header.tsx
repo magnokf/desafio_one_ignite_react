@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="header">
       <div>
-        <img src="/logo.svg" alt="to.do"/>
+    <img src="imagens/cieb_logo.png" alt="tarefas" width="10%" />
       </div>
     </header>
   )
